@@ -8,8 +8,6 @@ Autorzy: Aleksandra Trąba, Aleksandra Talaga, Karolina Węgrzyn
 
 ## 1. Wymagania i funkcje systemu
 
-Zarządzanie produkcją:
-
 - Rejestracja i definicja produktów
 
 Każdy produkt ma zdefiniowane komponenty:
