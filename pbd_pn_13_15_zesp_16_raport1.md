@@ -6,9 +6,9 @@ nr. zespołu: 16
 
 Autorzy: Aleksandra Trąba, Aleksandra Talaga, Karolina Węgrzyn
 
-## 1. Wymagania i funkcje systemu
+## 1. Wymagania i funkcje sy
 
-- Rejestracja i definicja produktów
+- Rejestracja i
 
 Każdy produkt ma zdefiniowane komponenty:
 
