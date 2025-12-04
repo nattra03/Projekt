@@ -8,8 +8,6 @@ Autorzy: Aleksandra Trąba, Aleksandra Talaga, Karolina Węgrzyn
 
 ## 1. Wymagania i funkcje systemu
 
-Wymagania funkcjonalne
-
 Zarządzanie produkcją:
 
 - Rejestracja i definicja produktów
