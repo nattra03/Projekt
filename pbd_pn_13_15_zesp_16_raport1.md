@@ -8,20 +8,13 @@ Autorzy: Aleksandra Trąba, Aleksandra Talaga, Karolina Węgrzyn
 
 ## 1. Wymagania i funkcje sy
 
-- Rejestracja i
+### 1. Zarządzanie Produkcją i Inżynierią Produktu
 
-Każdy produkt ma zdefiniowane komponenty:
+Products – tabela z listą produktów gotowych.
 
-typ części (metal, tworzywo, elementy łączące) + robocizna
+Components – tabela z listą surowców/komponentów.
 
-ilość kazdej z części potrzebną do produkcji ( np aby złozyc jedno biurko potrzebujemy 1 tworzywo, 4 nogi metalowe i 10 elementów łączących)
+ProductsComponents – tabela pośrednia wiele-do-wielu, łącząca product z components. Każdy rekord w ProductsComponents określa: ile danego komponentu potrzeba do wyprodukowania 1 szt. produktu.
 
-- Obliczanie kosztu wyprodukowania produktu na podstawie kosztu komponentów i robocizny.
-- Możliwość planowania produkcji zarówno produktów dostępnych w magazynie, jak i brakujących komponentów.
-- Uwzględnianie mocy przerobowych w jednostce czasu (maksymalna liczba produktów możliwych do wyprodukowania w określonym czasie).
-- Szacowanie czasu realizacji produkcji pojedynczych produktów oraz całych zamówień.
-- Możliwość składania zamówień na produkty niedostępne w magazynie.
-
-- System uwzględnia czas podany przez klienta w zamówieniu i szacuje, czy produkcja jest możliwa w wymaganym terminie.
-
-- Automatyczne aktualizowanie stanu magazynowego po wyprodukowaniu produktów.
+Klienci - System obsługuje 2 typy klientów: osoby fizyczny lub firmy
+Kazde zamówienie może zawierać wiele pozycji, każda pozycja opisuje produkt i ilość.
